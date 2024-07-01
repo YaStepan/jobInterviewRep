@@ -6,6 +6,6 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 public interface StringServiceImpl {
-    @Transactional
-    public MyString getStringById();
+
+    MyString getStringById(Long id);
 }
